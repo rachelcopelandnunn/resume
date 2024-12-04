@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+body{
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+  margin: 0 auto;
+}
+h1{
+  font-weight: lighter;
+  border-bottom: 3px solid #595959;
+  font-size: 60px;
+  font-family: "Roboto Flex", sans-serif;
+  color:#595959;
+  text-align: center;
+  margin: 20px auto;
+  text-shadow: 15px 15px 15px #f158b7;
+}
+p{
+  text-align: left;
+}
+
+ul{
+  word-spacing: 2px;
+}
+a :hover{
+  text-decoration: none;
+}
+a :active{
+  text-decoration: none;
+}
+
+
+/* Website Links except the nav */
+a:link{
+	color: #595959;
+}
+a:visited{
+	color: #595959;
+}
+a:hover{
+	color: gray;
+}
+a:active{
+	color: gray;
+}
+
+/* Header Section*/
+header{
+  border-top: 4px solid white;
+  text-align: center;
+  background: rgb(241,88,183);
+  background: linear-gradient(169deg, rgba(241,88,183,1) 0%, rgba(175,71,136,0.3981967787114846) 47%);
+  max-height: 200px;
+}
+.logo{
+  max-width: 300px;
+  height: auto;
+  margin: 0;
+}
+
+/* Navigation */
+nav{
+  font-family: "Playwrite GB S", cursive;
+  background-color: #f8ef01;
+  border-top: 3px solid #595959;
+  border-bottom: 3px solid #595959;
+  padding: 5px;
+  text-shadow: 1px 1px 1px black;}
+nav ul{
+  font-size: 20px;
+  list-style-type: none;
+  text-align: center;
+  word-spacing: 200px;
+  margin: 8px 0;
+  padding: 0;
+}
+nav li{
+  display:inline;
+  padding:5px;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link {
+ color: black ;
+}
+nav a:visited {
+ color: black;
+}
+nav a:hover {
+ color: gray;
+}
+nav a:active {
+ color:gray;
+}
+
+
+/* Main Section*/
+main{
+  max-width: 800px;
+  margin: 20px auto;
+}
+/* Main Section index-page*/
+.about-me-image{
+  text-align: center;
+  border-radius: 20px;
+}
+.about-me-image h2{
+  font-family: "Playwrite GB S", serif;
+}
+.about-me-image .img-fluid{
+  border: 2px solid #595959;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px #595959;
+}
+.about-me-content{
+  margin-top: 20px;
+  border: 1px solid #f158b7;
+  box-shadow: 2px 2px 2px #595959;
+  padding: 20px;
+  min-height: 500px;
+  border-radius: 10px;
+  height: 320px;
+}
+.about-me-content h2{
+  font-family: "Playwrite GB S", serif;
+  font-size: 25px;
+}
+.about-me-content p{
+  font-family: "Roboto Flex", serif;
+}
+.school-link{
+  border: 3px solid #f158b7;
+  box-shadow: 1px 1px 1px #595959;
+  text-shadow: 1px 1px 1px #f158b7;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid #595959;
+  text-align: center;
+  min-height: 100px;
+}
+.school-link h2{
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 22px;
+  min-width: auto;
+  font-family: "Playwrite GB S", serif;
+}
+.school-link .fa {
+  margin: 20px auto;
+  padding: 50px auto;
+  font-size: 2em; 
+  color: #595959; 
+  text-align: center;
+}
+.page-link {
+  box-shadow: 2px 2px 2px #f158b7;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  text-shadow: 1px 1px 1px #f158b7;
+  padding: 30px;
+  height: 400px;
+}
+.page-link .fa {
+  margin: 20px auto;
+  padding: 50px auto;
+  font-size: 3em; 
+  color: #595959; 
+  text-align: center;
+}
+.page-links p{
+  color: #595959;
+  text-align: left;
+  padding: 5%;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+/* Main Section resume*/
+main .resume-page{
+  padding: 10px;
+}
+.resume-box h1{
+  font-family: "Playwrite GB S", cursive;
+  border-bottom: 1px solid #f158b7;
+  text-align: left;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px #f158b7;
+}
+
+.resume-box h2{
+  border-bottom: 1px solid #f158b7;
+  font-size: 26px;
+  font-family: "Roboto Flex", serif;
+}
+.resume-box p{
+  font-family: "Roboto Flex", serif;
+}
+.resume-box ul{
+  font-family: "Roboto Flex", serif;
+}
+.resume-box{
+margin-bottom: 100px;
+margin-top: 50px;
+border-top: 3px solid #d3d1d1;
+border-left: 3px solid #d3d1d1;
+box-shadow: 3px 3px 4px #f158b7;
+padding: 10%;
+text-align: left;
+}
+/* main section portfolio*/
+.portfolio-content{
+  text-align: center;
+  border-radius: none;
+  margin: 5px;
+  padding: 10%;
+
+}
+
+.portfolio-content p{
+  max-width: 100%;
+  padding: 20px;
+  text-align: left;
+  height: 400px;
+
+}
+
+/* Footer*/
+footer{
+  border-top: 4px solid #595959;
+  text-align: center;
+  clear: both;
+  background: rgb(241,88,183);
+  background: linear-gradient(169deg, rgba(241,88,183,1) 0%, rgba(175,71,136,0.3981967787114846) 47%);
+}
+footer .fa{
+  font-size: 35px;
+  color:#595959 ;
+  padding-right: 40px;
+}
+footer h2{
+  font-family: "Playwrite GB S", cursive;
+  font-weight: normal;
+  border-bottom: 5px solid #595959;
+}
+footer .col-sm-6 h2{
+  padding-top: 20px;
+  display: block;
+  text-align: left;
+  font-size: 2em;
+}
+footer .col-md-12{
+  border-top: 4px solid #595959;
+  background-color: white;
+  padding: 20px;
+}
+footer ul{
+  list-style: none;
+  font-size: 27px;
+  padding: 10px;
+}
+footer li{
+  text-shadow: 0px 1px 1px black;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: left;
+  font-family: "Roboto Flex", sans-serif;
+}
+footer p{
+  color: #595959;
+  font-size: 27px;
+  font-weight: lighter;
+  font-family: "Roboto Flex", sans-serif;
+  text-shadow: 0px 1px 1px black;
+  max-width: 50%;
+  padding: 15px;
+  line-height: 300%;
+  display: block;
+}
+small{
+  display: block;
+  margin: o auto;
+  font-weight: bold;
+  color: #595959;
+  text-shadow: 1px 1px 1px #f8ef01;
+
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+  nav ul{
+    word-spacing: 100px;
+  }
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+  nav ul{
+    word-spacing: 20px;
+    max-width: 100%;
+  }
+}

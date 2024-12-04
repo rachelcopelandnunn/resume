@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&display=swap');
+body{
+  background-image: url(images/forest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Noto Serif JP", serif;
+  margin: 0;
+}
+
+header h1{
+  font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+  padding: none;
+  line-height: -20px;
+  font-size: 60px;
+  text-shadow: 5px 5px 5px black;
+
+}
+main h1{
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+  text-shadow: 5px 5px 5px black;
+  padding: 20px;
+
+}
+/* Website Links except the nav */
+
+a:link{
+	color: white;
+}
+a:visited{
+	color: white;
+}
+a:hover{
+	color: gray;
+}
+a:active{
+	color: gray;
+}
+
+/* Header Section*/
+header{
+  text-align: center;
+}
+
+/* Navigation */
+nav{
+  background-color: rgb(16, 16, 17);
+  padding: 5px;
+  word-spacing: 300px;
+  border-top: 5px solid aliceblue;
+  border-bottom: 5px solid aliceblue;
+  
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+}
+nav li{
+  display:inline;
+  padding:5px;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link {
+ color: white ;
+}
+nav a:visited {
+ color: white ;
+}
+nav a:hover {
+ color:orange;
+}
+nav a:active {
+ color:gray;
+}
+/* Main Section*/
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.container-fluid{
+  padding: 0;
+}
+div{
+  margin: 0 auto;
+}
+.row{
+margin: 10px auto;
+align-items: center;
+}
+.img-fluid{
+  background-color: black;
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px gray;
+}
+.gallery{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+main .fa{
+  font-size: 9em;
+  color: aliceblue;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  
+}
+blockquote{
+  background-color: black;
+  font-weight: bolder;
+  text-align: left;
+  color: aliceblue;
+  padding: 20px;
+  margin: 10px auto;
+  box-shadow: 4px 4px 2px gray;
+  border-radius: 20px;
+}
+
+/* gallery css*/
+.gallery .preview img{
+  width: 100%;
+  height: auto;
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+
+.gallery .gallery-thumbnails img {
+  width: 100px;
+  height: 75px;
+  margin: 3px 10px 10px 0;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px gray;
+  margin-top: 50px;
+}
+
+.gallery .gallery-thumbnails img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.gallery .preview img#preview {
+  padding: 1px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+
+/* Footer*/
+footer{
+  text-align: center;
+}
+footer .fa{
+  font-size: 1em;
+  color: white;
+}
+footer p{
+  font-size: 12px;
+  word-wrap: normal;
+}
+footer .row{
+  padding-top: 10px;
+  border-top: 5px solid aliceblue;
+  border-bottom: 5px solid aliceblue;
+  padding: 20px;
+  background-color: rgb(66, 62, 62);
+  color: aliceblue;
+  text-align: left;
+  align-items: center;
+}
+footer a{
+  margin: 0 10px;
+  font-size: 12px;
+}
+ul{
+  list-style: none;
+  align-items: right;
+  padding: 0;
+}
+small{
+  color: aliceblue;
+  font-size: 10px;
+
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+  font-size: 4em;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+  main .fa{
+    margin-left: -60px;
+    margin-right: -60px;
+  }
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+  nav{
+    word-spacing: normal;
+  }
+  header h1{
+    font-size: 2em;
+  }
+}

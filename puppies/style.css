@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body{
+  font-family: "Nunito", serif;
+  margin: 0 ;
+  background-color: #d7d7f7;
+}
+h1{
+  font-size: 6em;
+  font-family: "Kalam", serif;
+  text-shadow: 2px 2px 4px black;
+  color: #734d26;
+  text-align: center;
+}
+h2{
+  font-weight: bolder;
+  font-family: "Kalam", serif;
+  color: #734d26;
+  text-shadow: 4px 4px 4px wheat
+}
+
+h3{
+  font-size: 35px;
+  font-family: "Kalam", serif;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  color: #734d26;
+}
+
+.about-page h2{
+text-align: center;
+font-family: "Nunito", serif;
+}
+
+.about-page p,ol{
+  text-align: left;
+  font-size: 1.5em;
+  text-align: center;
+  list-style: none;
+  text-align: center;
+  }
+
+.about-page-col{
+  height: 200px;
+  margin: 20px auto;
+  border: 8px solid #d1a272;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+
+}
+/* Website Links except the nav */
+a:link{
+	color: #734d26;
+}
+a:visited{
+	color: #734d26;;
+}
+a:hover{
+	color: wheat;
+}
+a:active{
+	color: gray;
+}
+
+/* Header Section*/
+
+
+/* Navigation */
+nav{
+  background: rgb(57,57,162);
+  background: linear-gradient(90deg, rgba(57,57,162,1) 18%, rgba(115,77,38,1) 54%);
+  border-top: 8px solid #9999ff;
+  border-bottom: 8px solid #9999ff;
+  word-spacing: 280px;
+  padding: 10px;
+
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+  font-weight: bold;
+}
+nav li{
+  display:inline;
+  padding:5px;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link {
+ color: wheat ;
+}
+nav a:visited {
+ color: wheat;
+}
+nav a:hover {
+ color:#9999ff;
+}
+nav a:active {
+ color:gray;
+}
+/* Main Section*/
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+#home-hero{
+  background-image: url(images/header.jpg);
+  height:475px;
+  background-repeat: no-repeat;
+  background-size: 800spx;
+  background-position: center;
+  color: #734d26;
+  padding: 10px 10px 10px 30px;
+  margin-bottom: 20px;
+  border: 8px solid #734d26;
+  border-radius: 20px;
+  opacity: 1;
+}
+.home-hero-2{
+  background-image: url(images/1st2nd3rd.png);
+  height:475px;
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: center;
+  color: #734d26;
+  padding: 10px 10px 10px 30px;
+  margin-bottom: 20px;
+  border:none;
+  border-radius: 20px;
+  opacity: 1;
+}
+.img-fluid{
+  border: 8px solid #734d26;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin: 50px auto;
+}
+
+blockquote{
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 18;
+  background-color: #eeeeee;
+  border-left: 10px solid gray;
+  padding: 30px;
+  box-shadow: 5px 5px 5px black;
+  background-color: #734d26;
+  color: wheat;
+}
+
+/* Footer*/
+footer{
+  border-top: 8px solid #734d26;
+  text-align: center;
+}
+footer a{
+font-family: "Kalam", serif;
+}
+footer .fa{
+  font-size: 2em;
+  color: #734d26;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+  font-size: 4em;
+  font-family: "Nerko One", cursive;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+  
+}
+/* CSS Adjustments for Smartphones */
+  @media only screen and (max-width: 763px) {
+    h1{
+      font-size: 1.5em;
+    }
+
+    nav{
+      word-spacing: 100px;
+    }
+    nav ul{
+      padding: 0;
+      margin: 0;
+    }
+    nav li{
+      display: block;
+      padding:.5em 1em;
+      border-bottom: 1px solid #9999ff;
+    }
+   .img-fluid{
+    width: 100%;
+    display: block;
+    }
+  .home-hero-2{
+    display: none;
+  }
+  .about-page p,ol{
+    font-size: 1em;
+  }
+}
