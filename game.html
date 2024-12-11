@@ -14,7 +14,9 @@
 <!--Replace the <body> with this next line of code. This is what starts the game. -->
 <body onload="startGame()">
      <header>
-        <img src="images/logo.png" class="logo" height="540" width="960" alt="Logo featuring a colorful, artistic depiction of a brain on the left, symbolizing creativity and thought, with the name 'Rachel Copeland-Nunn' in bold yellow text on the right.">
+        <a href="index.html">
+            <img src="images/logo.png" class="logo" height="540" width="960" alt="Logo featuring a colorful, artistic depiction of a brain on the left, symbolizing creativity and thought, with the name 'Rachel Copeland-Nunn' in bold yellow text on the right.">
+        </a>
      </header>
 
      <nav>
@@ -26,27 +28,33 @@
 
         <ul>
       </nav>
-     <main class="game">
-        <h1>
-            Game
-        </h1>
+     <main class="game-page">
+        <h1>JavaScript Master Mind Game</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-content">
+                        <blockquote>
+                            I created this game while working through the W3 Schools JavaScript tutorial.
+                            I later enhanced it by expanding its size, adding CSS for styling, incorporating
+                            a background image, adding a unique image for the game piece, and customizing
+                            the game button.
+                        </blockquote>
+                        <h2>
+                            Use the light bulb to stay in the air, 
+                            thing about your next move, how long can you 
+                            last?
+                        </h2>
 
-      <h1>JavaScript Gobble Gobble Game</h1>
-
-      <div class="container">
-        <p class="game-text">I created this game while working through the W3 Schools JavaScript tutorial.
-          I later enhanced it by expanding its size, adding CSS for styling, incorporating
-          a background image, adding a unique image for the game piece, and customizing
-          the game button.</p>
-
-         <h2>Use the Gobble Gobble to stay in the air, how long can you fly?</h2>
-  
-      </div>
+                    </div>
+                </div><!--end of col-->
+            </div><!--end of row-->
+        </div><!--end of container-->
       
          <!-- This code will go into the <main> section. This div holds the game and game button -->
    <div id="game" ></div>
    <div class="game-controls">
-      <button class="myButton" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">Gobble Gobble</button>
+      <button class="myButton" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">Think Think Think</button>
    </div>
    <!-- This is the JavaScript for the game it goes into the <main> section underneath the code above-->
     <script>

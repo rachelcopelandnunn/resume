@@ -1,17 +1,16 @@
 /*game CSS */
 
 canvas {
-  border: 10px solid rgb(143, 56, 95);
+  border: 5px solid #595959;;
   border-radius: 20px;
   background-color: #f1f1f1;
-  background-image: url(images/game-image.png);
+  background-image: url(images/game-image.jpg);
   background-size: cover; 
-  margin-top: 50px;     
-  }
-  .game-text{
-   text-align: center;
-    font-size: 18px;
-  }
+  margin-top: 50px; 
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 5px #f158b7;
+}
+
   .game-controls{
     margin: 60px, auto;
     text-align: center;
@@ -20,17 +19,34 @@ canvas {
     color: white;
     font-size: 30px;
     font-family: "Playwrite GB S", cursive;
-    background-color: rgb(185, 61, 230);
+    background-color: #595959;
     height: 60px;
     width: 600px;
     border: none;
     border-radius: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     cursor: pointer;
   }
   button:hover{
-    background-color: orangered;
+    background-color: #f158b7;
   }
   button:active{
     opacity: 0.5;
   }
+  .game-page blockquote{
+    margin: 30px;
+    font-family: "Roboto Flex", serif;
+    border-radius: 20px;
+    padding: 2%;
+    background-color: #595959;
+    color: aliceblue;
+    box-shadow: 2px 2px 2px #f158b7;
+    font-size: 18px;
+  }
+  .game-page h2{
+    font-family: "Roboto Flex", serif; 
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 1px 1px 1px #f158b7;
+   }

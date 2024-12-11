@@ -4,13 +4,7 @@ body{
   margin: 0 ;
   background-color: #d7d7f7;
 }
-h1{
-  font-size: 6em;
-  font-family: "Kalam", serif;
-  text-shadow: 2px 2px 4px black;
-  color: #734d26;
-  text-align: center;
-}
+
 h2{
   font-weight: bolder;
   font-family: "Kalam", serif;
@@ -26,27 +20,7 @@ h3{
   color: #734d26;
 }
 
-.about-page h2{
-text-align: center;
-font-family: "Nunito", serif;
-}
 
-.about-page p,ol{
-  text-align: left;
-  font-size: 1.5em;
-  text-align: center;
-  list-style: none;
-  text-align: center;
-  }
-
-.about-page-col{
-  height: 200px;
-  margin: 20px auto;
-  border: 8px solid #d1a272;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px black;
-
-}
 /* Website Links except the nav */
 a:link{
 	color: #734d26;
@@ -62,7 +36,13 @@ a:active{
 }
 
 /* Header Section*/
-
+h1{
+  font-size: 6em;
+  font-family: "Kalam", serif;
+  text-shadow: 2px 2px 4px black;
+  color: #734d26;
+  text-align: center;
+}
 
 /* Navigation */
 nav{
@@ -106,6 +86,13 @@ main{
   margin: 20px auto;
   padding: 10px;
 }
+.img-fluid{
+  border: 8px solid #734d26;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin: 50px auto;
+}
+/* Main Section index-page*/
 #home-hero{
   background-image: url(images/header.jpg);
   height:475px;
@@ -119,6 +106,19 @@ main{
   border-radius: 20px;
   opacity: 1;
 }
+blockquote{
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 18;
+  background-color: #eeeeee;
+  border-left: 10px solid gray;
+  padding: 30px;
+  box-shadow: 5px 5px 5px black;
+  background-color: #734d26;
+  color: wheat;
+}
+/* Main Section about-page*/
 .home-hero-2{
   background-image: url(images/1st2nd3rd.png);
   height:475px;
@@ -132,26 +132,58 @@ main{
   border-radius: 20px;
   opacity: 1;
 }
-.img-fluid{
-  border: 8px solid #734d26;
-  border-radius: 25px;
-  margin-top: 20px;
-  margin: 50px auto;
+.about-page h2{
+  text-align: center;
+  font-family: "Nunito", serif;
+  }
+  
+  .about-page p,ol{
+    text-align: left;
+    font-size: 1.5em;
+    text-align: center;
+    list-style: none;
+    text-align: center;
+    }
+  
+  .about-page-col{
+    height: 200px;
+    margin: 20px auto;
+    border: 8px solid #d1a272;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+  
+  }
+/* Main Section contact-page*/
+.contact-page h3{
+  font-weight: normal;
+  text-shadow: 1px 1px 1px #d7d7f7;
 }
-
-blockquote{
-  margin-top: 50px;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 18;
+.contact-page blockquote{
+  box-shadow: 2px 2px 2px black;
+}
+.contact-box{
+  border-radius: 20px;
+  border: 8px solid #d1a272;
   background-color: #eeeeee;
-  border-left: 10px solid gray;
-  padding: 30px;
-  box-shadow: 5px 5px 5px black;
-  background-color: #734d26;
-  color: wheat;
+  height: 250px;
+  width: 300px;
+  align-items: center;
+  margin: 30px;
 }
-
+.contact-box h3{
+  font-family: "Nunito", serif;
+  font-size: 20px;
+  text-shadow: none;
+  padding-top: 20px;
+}
+.contact-box ul{
+  list-style: none;
+  text-align: left;
+  min-width: 50px;
+}
+.contact-box li{
+  padding: 0 10px;
+}
 /* Footer*/
 footer{
   border-top: 8px solid #734d26;

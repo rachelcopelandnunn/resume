@@ -106,11 +106,12 @@ main{
 }
 .about-me-image h2{
   font-family: "Playwrite GB S", serif;
+  text-shadow: 1px 1px 1px #f158b7;
 }
 .about-me-image .img-fluid{
   border: 2px solid #595959;
   border-radius: 10px;
-  box-shadow: 3px 3px 4px #595959;
+  box-shadow: 3px 3px 4px #f158b7;
 }
 .about-me-content{
   margin-top: 20px;
@@ -120,10 +121,13 @@ main{
   min-height: 500px;
   border-radius: 10px;
   height: 320px;
+  width: 250px; ;
 }
 .about-me-content h2{
   font-family: "Playwrite GB S", serif;
   font-size: 25px;
+  text-shadow: 1px 1px 1px #f158b7;
+
 }
 .about-me-content p{
   font-family: "Roboto Flex", serif;
@@ -153,23 +157,27 @@ main{
   text-align: center;
 }
 .page-link {
+  border: 2px solid #595959;
   box-shadow: 2px 2px 2px #f158b7;
   margin-bottom: 50px;
   border-radius: 20px;
   text-shadow: 1px 1px 1px #f158b7;
   padding: 30px;
   height: 400px;
+  width: 250px;
+
 }
 .page-link .fa {
   margin: 20px auto;
   padding: 50px auto;
-  font-size: 3em; 
+  font-size: 2em; 
   color: #595959; 
   text-align: center;
+  align-items: center;
 }
 .page-links p{
   color: #595959;
-  text-align: left;
+  text-align: center;
   padding: 5%;
   line-height: 1.5;
   font-weight: lighter;
@@ -195,9 +203,11 @@ main .resume-page{
 }
 .resume-box p{
   font-family: "Roboto Flex", serif;
+  font-weight: bolder;
 }
 .resume-box ul{
   font-family: "Roboto Flex", serif;
+  font-weight: bolder;
 }
 .resume-box{
 margin-bottom: 100px;
@@ -211,17 +221,29 @@ text-align: left;
 /* main section portfolio*/
 .portfolio-content{
   text-align: center;
-  border-radius: none;
   margin: 5px;
   padding: 10%;
-
 }
+.portfolio-image .img-fluid{
 
+  border: 2px solid #595959;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #f158b7;
+  width: 500px;
+  height: 300px;
+  margin-top: 60px;
+}
+.portfolio-content h2{
+  font-family: "Playwrite GB S", serif;
+  text-shadow: 1px 1px 1px #f158b7;
+}
 .portfolio-content p{
+  font-family: "Roboto Flex", serif;
   max-width: 100%;
   padding: 20px;
   text-align: left;
-  height: 400px;
+  width: 350px;
+  height: 300px;
 
 }
 
@@ -283,7 +305,7 @@ small{
   margin: o auto;
   font-weight: bold;
   color: #595959;
-  text-shadow: 1px 1px 1px #f8ef01;
+  text-shadow: 1px 1px 1px #f158b7;
 
 }
 
@@ -306,5 +328,42 @@ small{
   nav ul{
     word-spacing: 20px;
     max-width: 100%;
+  }
+  nav li{
+    display: block;
+    padding: .5em 3em;
+    border-bottom: 1px solid #595959;
+  }
+  .about-me-content{
+    width: auto;
+    min-height: 100%;
+    margin-bottom: 20px;
+    }
+  .school-link{
+    width: auto;
+    min-height: auto;
+  }
+  .page-link{
+    width: auto;
+    max-height: 60%;
+    height:auto;
+    padding-bottom: 80px;
+  }
+  .resume-box{
+    width: auto;
+  }
+  .about-box {
+    margin: 15px;
+  }
+  .school-link-box{
+    padding-top: 15px;
+    width: 100%;
+  }
+  .link-box{
+    height: fit-content;
+  }
+  .page-link a {
+    display: block;
+   text-align: center;
   }
 }
