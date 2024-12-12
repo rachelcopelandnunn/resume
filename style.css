@@ -45,7 +45,6 @@ a:active{
 
 /* Header Section*/
 header{
-  border-top: 4px solid white;
   text-align: center;
   background: rgb(241,88,183);
   background: linear-gradient(169deg, rgba(241,88,183,1) 0%, rgba(175,71,136,0.3981967787114846) 47%);
@@ -335,6 +334,7 @@ small{
   nav ul{
     word-spacing: 20px;
     max-width: 100%;
+    border-bottom: 1px solid #595959;
   }
   nav li{
     display: block;

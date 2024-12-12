@@ -67,6 +67,7 @@ button:active{
   }
   button{
     width: 300px;
+    height: 150px;
   }
   .game-page h2{
     font-weight: normal;
