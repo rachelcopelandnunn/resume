@@ -132,6 +132,9 @@ main{
   font-family: "Roboto Flex", serif;
   font-weight: normal;
 }
+.school-link-box:hover{
+  opacity: .8;
+}
 .school-link{
   border: 3px solid #f158b7;
   box-shadow: 1px 1px 1px #595959;
@@ -232,6 +235,9 @@ text-align: left;
 .portfolio-image .img-fluid{
   border: 2px solid #595959;
   margin-top: 30px;
+}
+.portfolio-image :hover{
+  opacity: .9;
 }
 .portfolio-page h1{
 border-bottom: none;
